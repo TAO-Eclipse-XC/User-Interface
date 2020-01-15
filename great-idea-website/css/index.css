@@ -64,10 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	display: inline-block;
+}
 .navigation {
 	color: aqua;
 }
 header {
 	text-align: left;
+	border: 5px solid red;
+	display: block;
+	padding: 10%;
 }
 
