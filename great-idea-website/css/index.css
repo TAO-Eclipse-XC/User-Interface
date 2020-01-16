@@ -1,3 +1,4 @@
+  
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -84,6 +85,11 @@ h1, h2, h3, h4, h5 {
 	margin: 100px 10px 10px 200px;
 	line-height: 1.5em;
 }
+.header .btn{
+	display: block;
+	margin: 5px 0 0 0;
+	font-size: 25px;
+}
 
 .header .img1 {
 	display: block;
@@ -115,4 +121,12 @@ h1, h2, h3, h4, h5 {
 	margin: -125px 530px 0 810px;
 	
 
+}
+.main{
+	display: inline-block;
+	margin: 0 0px 0 200px;
+	line-height: 1.5em;
+}
+footer{
+	margin: 50px 300px 0 600px;
 }
