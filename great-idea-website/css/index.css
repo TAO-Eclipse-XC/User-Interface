@@ -64,13 +64,55 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
 .navigation a {
 	border: 1px dotted red;
 	padding: 10px;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 5px;
 }
 .navigation {
-	padding: 10px 0 10px 300px;
+	padding: 10px 0 0 200px;
+}
+.header .h1{
+	display:inline-block;
+	font-size: 45px;
+	border: 1px solid red;
+	margin: 100px 10px 10px 200px;
+	line-height: 1.5em;
 }
 
+.header .img1 {
+	display: block;
+	margin: -17% 650px 0 550px;
+}
+.section1 .s1p1{
+	display: inline-block;
+	margin: 30px 1000px 0 200px;
+}
+.section1 .s1p2 {
+	display: block;
+	margin: -99px 550px 0 600px;
+	
+}
+.middle-img {
+	margin: 20px 0 20px 150px;
+}
+.section2 .s2p1 {
+	display: block;
+	margin: 0 1100px 0 150px;
+}
+.section2 .s2p2 {
+	display:block;
+	margin: -95px 830px 0 510px;
 
+}
+.section2 .s2p3 {
+	display:block;
+	margin: -125px 530px 0 810px;
+	
+
+}
